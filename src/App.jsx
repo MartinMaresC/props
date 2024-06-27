@@ -1,6 +1,6 @@
 import Students from './Students';
 import './App.css';
-import logo from './logo.svg';
+import picture from './picture.png';
 
 function App() {
   return (
@@ -9,10 +9,16 @@ function App() {
         name="Martin"
         age={18}
         student={true}
-        picture={logo}
+        picture={picture}
+      />
+
+      <Students 
+        
       />
     </div>
   );
 }
+
+
 
 export default App;
